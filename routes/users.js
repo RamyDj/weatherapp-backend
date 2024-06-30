@@ -4,7 +4,6 @@ var router = express.Router();
 const User = require('../models/users');
 const { checkBody } = require("../modules/checkBody");
 
-//const OWM_API_KEY = 'ce7418650c86eae6629dfcfdda141c14';
 
 
 router.post('/signup', (req, res) => {
